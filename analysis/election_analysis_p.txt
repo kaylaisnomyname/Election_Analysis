@@ -1,0 +1,8 @@
+Hello again September 
+ using with-statement 
+
+Counties in the Election 
+- - - - - - - - - - - - - - - 
+Arapahoe 
+Denver 
+Jefferson 
