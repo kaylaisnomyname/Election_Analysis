@@ -1,7 +1,7 @@
 # Election_Analysis
 
 ## Project Overview
-This project is to analysis a congressional election of a given election dataset and output the following resluts:
+This project is to perform an election analysis on a given election dataset and output the following resluts:
 
 1. Total number of votes cast.
 2. A complete list of counties.
@@ -11,12 +11,12 @@ This project is to analysis a congressional election of a given election dataset
 6. A complete list of candidates.
 7. Votes cast for each candidate.
 8. Percentage of votes for each candidate.
-9. winner of the election.
+9. Winner of the election.
 10. Election results be saved in election_results.txt
 
 ## Resources
 - Data Source: election_results.csv
-- Software: Python 3.9, Visual Studio Code, 1.60.0
+- Software: Python 3.9, Visual Studio Code, 1.60.1
 
 ## Election-Audit Results
 The results of the election are:
@@ -35,7 +35,11 @@ The results of the election are:
   - Diana DeGette received 73.8% of the vote and 272,892 votes.
   - Raymon Anthony Doane received 3.1% of the vote and 11,606 votes.
 - The winner of the election was:
-  - Diana DeGette: 73.8% (272,892)
+  - Diana DeGette: 73.8% (272,892)  
+  
+Election results are saved in election_results.txt in the analysis folder.
+###### Image 1: Election Results Printed on Command Line
+![election results](https://github.com/kaylaisnomyname/Election_Analysis/blob/main/election_results.png?raw=true)
 
 ## Election-Audit Summary
 how to modify this script
