@@ -1,21 +1,31 @@
 # Election_Analysis
 
 ## Project Overview
-This project is to analysis election audit of a given election dataset and output the following resluts:
+This project is to analysis a congressional election of a given election dataset and output the following resluts:
 
 1. Total number of votes cast.
-2. A complete list of candidates.
-3. Votes cast for each candidate.
-4. Percentage of votes for each candidate.
-5. winner of the election.
+2. A complete list of counties.
+3. Votes cast for each county.
+4. Percentage of votes for each county.
+5. Largest turnout for the counties.
+6. A complete list of candidates.
+7. Votes cast for each candidate.
+8. Percentage of votes for each candidate.
+9. winner of the election.
+10. Election results be saved in election_results.txt
 
 ## Resources
 - Data Source: election_results.csv
 - Software: Python 3.9, Visual Studio Code, 1.60.0
 
-## Summary
+## Election-Audit Results
 The results of the election are:
 - There were 369,711 votes cast in this election.
+- The counties list and results:
+  - County Jefferson received 10.5% of the vote and 38,855 votes.
+  - County Denver received 82.8% of the vote and 306,055 votes.
+  - County Arapahoe received 6.7% of the vote and 24,801 votes.
+- The largest turnout county was Denver.
 - The candidates were:
   - Charles Casper Stockham
   - Diana DeGette 
@@ -27,14 +37,9 @@ The results of the election are:
 - The winner of the election was:
   - Diana DeGette: 73.8% (272,892)
 
-## Challenge Overview
-The challenges include how to import/read/analysis the resource file and output analysis results to a readable file, and how to construct functioning code blocks.
+## Election-Audit Summary
+how to modify this script
+eg1
+eg2 
 
-## Challenge Summary
-- get access to the resource file
-  - import dependencies, using methods of dependecies to set proper path to the source data
-- read the resource file
-  - use methods of dependencies to read file
-- output to result file
-  - .write() method
-- Proper indention for functional blocks
+
