@@ -44,7 +44,7 @@ Election results are saved in election_results.txt in the analysis folder. A scr
 ## Election-Audit Summary
 This Python script can be reused to analysis any elections with some modifications:
 1. Change the "County" and "Candidate" column indexes in the script respect to that in the provided resource file. For instant, in the resource file, election_result.csv, "County" and "Candidates" info are located in column 2 and 3. In the script they were referred to "row[1]" and "row[2]". If a provided resource election file has "County" and "Candidates" info in different locations, then the columns indexes must be changed respectively.
-2. The path to the resource file must be modified.
+2. The path to the resource file should be changed properly.
 
 
 
